@@ -2,7 +2,7 @@
 
 // Function to randomly choose between RPS for computer player
 function computerPlay() {
-    moves = ['rock','paper','scissor'];
+    moves = ['rock','paper','scissors'];
     randMove = Math.floor(Math.random()*3); //returns index of 1 , 2 or 3
     return moves[randMove];
 }
