@@ -11,6 +11,7 @@ function computerPlay() {
 function playRound(playerSelection,computerSelection){
     let result;
     let draw = "Draw, try again!";
+    playerSelection = playerSelection.toString().toLowerCase();
 
     switch(computerSelection){
         case "rock":
