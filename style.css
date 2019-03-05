@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+.container {
+    padding: 75px;
+}
+button {
+    padding: 25px 50px;
+    margin: 5px 10px;
+    border-radius: 10px; 
+    border-color: midnightblue;
+}
+button:hover{
+    box-shadow: 5px 5px; 
+    color: midnightblue;
+    background:darkgrey;
+}
+
+#log {
+    margin: 20px;
+    font-weight: bold;
+}
